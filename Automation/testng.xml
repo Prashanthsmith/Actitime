@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<groups>
+	<run>
+		<includename="regressionTest"/> </includename>
+
+		
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actimetime.testscript.ProjectModule"/>
+      <class name="com.actimetime.testscript.TaskModule"/>
+      <class name="com.actimetime.testscript.CustomerModule"/>
+    </classes>
+  </test>
+	</run>
+</groups> 
+</suite> 
